@@ -30,8 +30,12 @@ class board_generation:
                 "Go to Jail With a Bounty of 1000+": "AS",
                 "Unlock 3 Shouts": "AT",
                 "Discover All Capitals": "AU",
-                "Find a Standing Stone (except trio)": "AV",
-                "Mine 10 ore veins": "AW",
+                "Kill 2 Giants": "AV",
+                "Find a Standing Stone (except trio)": "AW",
+                "Mine 10 ore veins": "AX",
+                "Collect 3 Unusual Gems": "AY", 
+                "Get Destruction to 40": "AZ",
+                "Get Archery to 40": "BA"
 
 
         }
