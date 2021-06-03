@@ -8,14 +8,14 @@ def obj_generator():
 
     ################################ 27 objectives edit this when adding more ####################################################
 
-    objectives = [("Own a Horse", "AA"),("Gain 2 Dragon Souls", "AB"),("Get a Follower", "AC"),("Join the Thieves' Guild", "AD"),("Join the Dark Brotherhood", "AE"),("Get Launched By a Giant", "AF"),("Pick Up the Lusty Argonian", "AG"),("Escape From Jail", "AH"), ("Get One or Two Handed to 40", "AI"),("Join the Civil War", "AJ"),("Acqure one Daedric Artifact", "AK"), ("Eat a Human Heart", "AL"), ("Own a House", "AM"),("Discover 20 Location", "AN"),("Become a Werewolf or Vampire", "AO"),("Learn Bound Bow", "AP"),("Acquire 6000 Gold", "AQ"),("Win a Fist Fight", "AR"),("Go to Jail With a Bounty of 1000+", "AS"),("Unlock 3 Shouts", "AT"),("Discover All Capitals", "AU"),("Kill 2 Giants", "AV"),("Find a Standing Stone (except trio)", "AW"),("Mine 10 Ore Veins", "AX"),("Collect 3 Unusual Gems", "AY"), ("Get Destruction to 40", "AZ"),("Get Archery to 40", "BA")]
+    objectives = [("Own a Horse", "AA"),("Gain 2 Dragon Souls", "AB"),("Get a Follower", "AC"),("Join the Thieves' Guild", "AD"),("Join the Dark Brotherhood", "AE"),("Get Launched By a Giant", "AF"),("Pick Up the Lusty Argonian", "AG"),("Escape From Jail", "AH"), ("Get One or Two Handed to 40", "AI"),("Join the Civil War", "AJ"),("Acqure one Daedric Artifact", "AK"), ("Eat a Human Heart", "AL"), ("Own a House", "AM"),("Discover 20 Location", "AN"),("Become a Werewolf or Vampire", "AO"),("Learn Bound Bow", "AP"),("Acquire 6000 Gold", "AQ"),("Win a Fist Fight", "AR"),("Go to Jail With a Bounty of 1000+", "AS"),("Unlock 3 Shouts", "AT"),("Discover All Capitals", "AU"),("Kill 2 Giants", "AV"),("Find a Standing Stone (except trio)", "AW"),("Mine 10 Ore Veins", "AX"),("Collect 3 Unusual Gems", "AY"), ("Get Destruction to 40", "AZ"),("Get Archery to 40", "BA"),("Discover High Hrothgar", "BB"),("Full Set of Heavy Armor + Weapon", "BC"),("Join the Companions", "BD"),("Get Two Claws", "BE"),("Join the Mages College", "BF")]
 
 
     # list that rando which number in the list gets picked
     x = 0
     chosen_list = []
     while x < 25:
-        val = random.randint(0,26)
+        val = random.randint(0,(len(objectives)-1))
         if val in chosen_list:
             x = x 
         else:
@@ -43,7 +43,7 @@ def obj_generator():
 def decoder(code):
     
     ################################ 27 objectives edit this when adding more ####################################################
-    objectives = [("Own a Horse", "AA"),("Gain 2 Dragon Souls", "AB"),("Get a Follower", "AC"),("Join the Thieves' Guild", "AD"),("Join the Dark Brotherhood", "AE"),("Get Launched By a Giant", "AF"),("Pick Up the Lusty Argonian", "AG"),("Escape From Jail", "AH"), ("Get One or Two Handed to 40", "AI"),("Join the Civil War", "AJ"),("Acqure one Daedric Artifact", "AK"), ("Eat a Human Heart", "AL"), ("Own a House", "AM"),("Discover 20 Location", "AN"),("Become a Werewolf or Vampire", "AO"),("Learn Bound Bow", "AP"),("Acquire 6000 Gold", "AQ"),("Win a Fist Fight", "AR"),("Go to Jail With a Bounty of 1000+", "AS"),("Unlock 3 Shouts", "AT"),("Discover All Capitals", "AU"),("Kill 2 Giants", "AV"),("Find a Standing Stone (except trio)", "AW"),("Mine 10 Ore Veins", "AX"),("Collect 3 Unusual Gems", "AY"), ("Get Destruction to 40", "AZ"),("Get Archery to 40", "BA")]
+    objectives = [("Own a Horse", "AA"),("Gain 2 Dragon Souls", "AB"),("Get a Follower", "AC"),("Join the Thieves' Guild", "AD"),("Join the Dark Brotherhood", "AE"),("Get Launched By a Giant", "AF"),("Pick Up the Lusty Argonian", "AG"),("Escape From Jail", "AH"), ("Get One or Two Handed to 40", "AI"),("Join the Civil War", "AJ"),("Acqure one Daedric Artifact", "AK"), ("Eat a Human Heart", "AL"), ("Own a House", "AM"),("Discover 20 Location", "AN"),("Become a Werewolf or Vampire", "AO"),("Learn Bound Bow", "AP"),("Acquire 6000 Gold", "AQ"),("Win a Fist Fight", "AR"),("Go to Jail With a Bounty of 1000+", "AS"),("Unlock 3 Shouts", "AT"),("Discover All Capitals", "AU"),("Kill 2 Giants", "AV"),("Find a Standing Stone (except trio)", "AW"),("Mine 10 Ore Veins", "AX"),("Collect 3 Unusual Gems", "AY"), ("Get Destruction to 40", "AZ"),("Get Archery to 40", "BA"),("Discover High Hrothgar", "BB"),("Full Set of Heavy Armor + Weapon", "BC"),("Join the Companions", "BD"),("Get Two Claws", "BE"),("Join the Mages College", "BF")]
 
     x = 0
     code_list = []
